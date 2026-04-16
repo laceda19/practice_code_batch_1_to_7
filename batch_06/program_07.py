@@ -1,0 +1,5 @@
+text_input = input("Enter text: ")
+total_length = int(input("Enter length: "))
+spaces = total_length - len(text_input)
+result_text = " " * (spaces // 2) + text_input + " " * (spaces - spaces // 2)
+print("Result:", result_text)
